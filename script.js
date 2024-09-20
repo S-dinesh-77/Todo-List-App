@@ -22,7 +22,7 @@ function addToDo(event) {
     const toDoDiv = document.createElement("div");
     toDoDiv.classList.add('todo');
 
-    // Create LI
+    // Create Li
     const newToDo = document.createElement('li');
     if (toDoInput.value === '') {
         alert("You must write something!");
